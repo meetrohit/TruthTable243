@@ -1,0 +1,7 @@
+*.xml
+*.name
+out/production/TruthTable243/GUIManipulator.class
+*.md
+out/production/TruthTable243/TruthTable243.iml
+*.iml
+*.class
