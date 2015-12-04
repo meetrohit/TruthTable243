@@ -207,7 +207,7 @@ public class TruthTableGUI {
 				rvarArea.setText(populate[2]);
 				tvarArea.setText(populate[3]);
 
-				updateA();
+				clearA();
 				clearB();
 				clearC();
 				clearD();
@@ -919,6 +919,13 @@ public class TruthTableGUI {
 		//setting all other components to Enabled false until B Left, Op, Right contain something not a blank
 		clearC();
 		disableC();
+	}
+	
+	public void clearA(){
+		ATextArea.setText("");
+		ADropLeft.setSelectedIndex(0);
+		ADropRight.setSelectedIndex(0);
+		ADropOp.setSelectedIndex(0);
 	}
 	
 	public void instructions(){
